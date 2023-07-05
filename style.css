@@ -1,0 +1,92 @@
+*{margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.calc{
+    margin: 3rem auto;
+    width: 30%;
+    height:60vh ;
+    border: .1px solid black;
+    padding: 20px;
+    background-color: rgb(173, 216, 241);
+    border-radius: 9px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    color: black;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    border: .1px solid black;
+    padding: 30px;
+    background-color: rgb(232, 255, 237);
+    border-radius: 9px ;
+    display: flex;
+    align-items:  flex-start;
+    justify-content:center;
+    flex-direction: column;
+
+}
+/* form{
+   
+    display: flex;
+    align-items:  flex-start;
+    justify-content:center;
+    flex-direction: column;
+} */
+#num1{
+    color: black;
+    border: .1px solid black;
+    width: 100%;
+    padding: 9px;
+    margin-bottom: 15px;
+    border-radius:4px ;
+    box-shadow: 3px 5px 4px rgba(.2,0,0,0.5);
+   
+    
+}
+#num2{
+    border: .1px solid black;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius:4px ;
+    box-shadow: 3px 5px 4px rgba(.2,0,0,0.5);
+    
+}
+#operator{
+    text-align: center;
+    border: .1px solid black;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius:4px ;
+    box-shadow: 3px 5px 4px rgba(.2,0,0,0.5);
+}
+button{
+    border: .1px solid black;
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius:4px ;
+    box-shadow: 3px 5px 4px rgba(.2,0,0,0.5);
+
+}
+#result{
+    margin-left:40%;
+    border: .1px solid black;
+    width: 60%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius:4px ;
+    box-shadow: 3px 5px 4px rgba(.2,0,0,0.5);
+    
+}  
+::placeholder{
+    color: black;
+}
+select{
+    font-size: 1.5rem;
+}
